@@ -435,11 +435,12 @@ box-shadow: 0 1px 6px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.1
 
 @media screen and (min-width: 1158px) {
     .hero {
+        max-width: 1440px;
         padding: 188px 0;
         background-image: linear-gradient(rgba(46, 47, 66, 0.7),
                     rgba(46, 47, 66, 0.7)),
                 url(../images/hero-background-desktop@1x.jpg);
-        max-width: 1158px;
+        
     }
         @media (min-resolution: 192dpi) {
             .hero {
@@ -486,6 +487,7 @@ box-shadow: 0 1px 6px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.1
     letter-spacing: 0.02em;
     color: #2E2F42;
     margin-bottom: 8px;
+    text-align: center;
 }
 
 .features-text {
@@ -514,6 +516,10 @@ box-shadow: 0 1px 6px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.1
     .features-list-item:not(:last-child) {
         margin-bottom: 0;
         }
+    .features-subtitle {
+        text-align: left;
+    }
+
     
 }
 
@@ -554,9 +560,11 @@ box-shadow: 0 1px 6px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.1
         line-height: 120%;
     }
 
-    .features-text [
-        font-weight: 400;
-    ]
+    .features-text {
+        font-weight: 400px;
+    }
+        
+    
 }
 
 
