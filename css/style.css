@@ -110,10 +110,13 @@ box-shadow: 0 1px 6px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.1
     background-color: #ffffff;
     width: 100%;
     height: 100%;
-    padding: 24px 24px 40px 16px;
+    padding: 72px 24px 40px 16px;
 }
 
 .menu-close {
+    position: absolute;
+    top: 24px;
+    right: 24px;
     width: 24px;
     height: 24px;
     border: none;
@@ -127,8 +130,8 @@ box-shadow: 0 1px 6px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.1
     align-items: center;
     justify-content: center;
     padding: 0;
-    margin-left: auto;
-    margin-bottom: 24px;
+   
+    
 }
 
 .menu-close:hover, .menu-close:focus {
@@ -145,7 +148,7 @@ box-shadow: 0 1px 6px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.1
     display: flex;
     flex-direction: column;
     height: 100%;
-    justify-content: space-between;
+    
 }
 
 .menu-close:hover .menu-close-button-icon, .menu-close:focus .menu-close-button-icon {
@@ -154,7 +157,7 @@ box-shadow: 0 1px 6px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.1
 }
 
 .menu-navigation {
-    
+    margin-bottom: auto;
 }
 
 .menu-nav-list {
@@ -178,10 +181,7 @@ box-shadow: 0 1px 6px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.1
     color: #404BBF;
 }
 
-.menu-address-contacts-box {
-    padding-bottom: 40px;
 
-}
 
 .menu-adress {
     font-style: normal;
